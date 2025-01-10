@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.sensor {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.sensor i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.lock-state {
+    font-size: 18px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.lock-state i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #28a745;
+}
+
+.buzzer-control .btn {
+    width: 150px;
+}
+
+.notification-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    height : 200px;
+    overflow-y: auto;
+}
+
+.notification-box .notification {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.notification-box .notification:last-child {
+    border-bottom: none;
+}
